@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			.curry1{
+				-webkit-filter: blur(2px) ;
+				}
+			.curry2{
+				-webkit-filter: saturate(3) ;
+				}
+			.curry3{
+				-webkit-filter: contrast(2) ;
+				}
+			.curry4{
+			    -webkit-filter: brightness(0.5);
+			animation: donghua 2s;
+				}	
+				
+				
+			@keyframes donghua{
+				from{
+					-webkit-filter: brightness(0.5);
+				}
+				to{
+					-webkit-filter:brightness(2);
+				}
+			}
+			
+			.curry5{
+				-webkit-filter: invert(1));
+				animation: donghua2 2s;
+			}
+			
+			@keyframes donghua2{
+				from{
+						-webkit-filter: invert(1));
+				}
+				to{
+						-webkit-filter: invert(0.2));
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<img class="curry1" src="img/20160227095301_860ea25c3b24ececb2936641b4e3459c_1.jpeg"/>
+		<img class="curry2" src="img/20160227095301_860ea25c3b24ececb2936641b4e3459c_1.jpeg"/>
+		<img class="curry3" src="img/20160227095301_860ea25c3b24ececb2936641b4e3459c_1.jpeg"/>
+		<img class="curry4" src="img/20160227095301_860ea25c3b24ececb2936641b4e3459c_1.jpeg"/>
+		<img class="curry5" src="img/20160227095301_860ea25c3b24ececb2936641b4e3459c_1.jpeg" />
+	</body>
+</html>
